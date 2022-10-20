@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Fjalla+One&display=swap');
+.label{
+    font-family: 'Fjalla One', sans-serif;
+}
+#sideBarMenu{
+    -fx-background-color: #121e26;
+}
+#loginButton {
+    -fx-background-color:  #121e26;
+    -fx-border-color: #ffffff;
+     -fx-text-fill: #ffffff;
+
+}
+#loginButton: hover{
+    -fx-background-color:  #ffff;
+    -fx-text-fill: #121e26;
+
+}
+
+#loginMainScreen{
+    -fx-background-color: #283635;
+}

@@ -1,0 +1,79 @@
+#sideBarMenu{
+    -fx-background-color: #051821;
+}
+#mainPrincipalMenu{
+
+    -fx-background-color: #266867;
+
+}
+
+#sideBarMenu .button {
+    -fx-background-color: #051821;
+    -fx-font-size:18px;
+
+
+    }
+.button:hover{
+    -fx-cursor:hand;
+    -fx-background-color: #051821;
+    -fx-text-fill: white;
+}
+#sideBarMenu .button:hover {
+
+    -fx-cursor:hand;
+    -fx-border-width:2px;
+    -fx-border-color: transparent  transparent #E8E8E8 transparent;
+    -fx-font-weight:900;
+    -fx-cursor:hand;
+    -fx-font-size:18px;
+
+
+}
+#sideBarMenu .button:pressed {
+    -fx-font-size:18px;
+}
+#searchButton:hover{
+    -fx-cursor:hand;
+    -fx-background-color: #051821;
+    -fx-text-fill: white;
+}
+#saveButton:hover {
+    -fx-cursor:hand;
+    -fx-background-color: #207747;
+    -fx-text-fill: white;
+}
+#deleteButton:hover{
+    -fx-cursor:hand;
+    -fx-background-color: #ff0000;
+    -fx-text-fill: white;
+
+}
+#editButton:hover{
+    -fx-cursor:hand;
+    -fx-background-color: #051821;
+    -fx-text-fill: white;
+}
+#deleteElementLoanButton{
+    -fx-cursor:hand;
+}
+#logOutButton{
+    -fx-cursor:hand;
+
+}
+#anchorPaneReportes .button{
+-fx-background-color : transparent;
+}
+#anchorPaneReportes .button:hover {
+
+    -fx-text-fill: black;
+    -fx-cursor:hand;
+    -fx-border-width:1px;
+    -fx-border-color: transparent  transparent #051821 transparent;
+    -fx-font-weight:900;
+    -fx-font-size:18px;
+    -fx-cursor:hand;
+
+}
+#anchorPaneReportes.button:pressed {
+    -fx-font-size:18px;
+}

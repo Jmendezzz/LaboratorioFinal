@@ -1,0 +1,32 @@
+#sideBarMenu{
+    -fx-background-color: #051821;
+}
+#mainPrincipalMenu{
+
+    -fx-background-color: #266867;
+
+}
+
+#sideBarMenu .button {
+    -fx-background-color: #051821;
+    -fx-font-size:18px;
+
+
+    }
+#sideBarMenu .button:hover {
+
+    -fx-cursor:hand;
+    -fx-border-width:2px;
+    -fx-border-color: transparent  transparent #E8E8E8 transparent;
+    -fx-font-weight:900;
+    -fx-cursor:hand;
+    -fx-font-size:18px;
+
+
+}
+#sideBarMenu .button:pressed {
+    -fx-font-size:18px;
+}
+#logOutButton:hover{
+-fx-cursor:hand;
+}
