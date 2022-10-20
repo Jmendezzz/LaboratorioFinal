@@ -23,6 +23,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.ImagePattern;
 import javafx.util.Callback;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.time.LocalDate;
@@ -48,14 +49,16 @@ public class PrestamoContoller implements Initializable {
 
     @FXML
     private Button bestStudentButton;
+    File fileLogOut = new File("src/main/resources/images/logOutImg.png");
+    File fileDelete = new File("src/main/resources/images/delete.png");
 
-    Image img = new Image("C:\\Users\\jugem\\OneDrive\\Desktop\\Laboratorio windows\\LaboratorioWindows\\src\\main\\resources\\images\\delete.png");
+    Image img = new Image(fileDelete.toURI().toString());
     ImageView imageView = new ImageView(img);
     @FXML
     private Button deleteElementLoanButton;
     @FXML
     private Button logOutButton;
-    Image imgLogOut = new Image("C:\\Users\\jugem\\OneDrive\\Desktop\\Laboratorio windows\\LaboratorioWindows\\src\\main\\resources\\images\\logOutImg.png");
+    Image imgLogOut = new Image(fileLogOut.toURI().toString());
     ImageView imageViewLogOut = new ImageView(imgLogOut);
 
     @Override
@@ -188,7 +191,6 @@ public class PrestamoContoller implements Initializable {
     @FXML
     void switchToInventarioScene(ActionEvent event) throws IOException {
         mfc.switchToInventarioScene(event);
-
     }
 
     @FXML

@@ -14,6 +14,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
@@ -33,7 +34,8 @@ public class MonitorController implements Initializable {
     private VBox hideForMonitor;
     @FXML
     private Button logOutButton;
-    Image img = new Image("C:\\Users\\jugem\\OneDrive\\Desktop\\Laboratorio windows\\LaboratorioWindows\\src\\main\\resources\\images\\logOutImg.png");
+    File file = new File("src/main/resources/images/logOutImg.png");
+    Image img = new Image(file.toURI().toString());
     ImageView imageView = new ImageView(img);
 
 

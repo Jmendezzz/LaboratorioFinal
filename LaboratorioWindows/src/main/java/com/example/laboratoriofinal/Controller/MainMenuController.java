@@ -11,6 +11,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -70,7 +71,8 @@ public class MainMenuController implements Initializable {
         mfc.switchToLoginScene(event);
         loginService.changeLoginStatus(monitorLoginActive);
     }
-    Image img = new Image("C:\\Users\\jugem\\OneDrive\\Desktop\\Laboratorio windows\\LaboratorioWindows\\src\\main\\resources\\images\\logOutImg.png");
+    File file = new File("src/main/resources/images/logOutImg.png");
+    Image img = new Image(file.toURI().toString());
     ImageView imageView = new ImageView(img);
 
 
